@@ -1,0 +1,20 @@
+.Contain{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.App{
+  width: 300px;
+  height: auto;
+  border: 2px dashed black;
+  padding: 20px;
+}
+
+.Button{
+  margin-top: 20px;
+}
+
+.Checkbox{
+  margin-top: 20px;
+}
