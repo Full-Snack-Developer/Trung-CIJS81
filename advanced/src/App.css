@@ -1,0 +1,10 @@
+.Main{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.Right{
+    margin-left: 40px;
+    margin-top: -30px;
+}
