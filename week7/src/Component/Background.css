@@ -1,0 +1,12 @@
+.Main-Background{
+    height: 100vh;
+    position: absolute;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headerImage{
+    width: 100%;
+}

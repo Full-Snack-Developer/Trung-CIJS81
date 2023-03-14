@@ -1,0 +1,29 @@
+.Main-Dashboard{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Navbar{
+
+}
+
+.Bodycontent{
+    z-index: 1;
+    padding-top: 180px;
+    padding-left: 205px;
+}
+
+.Bodycard{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 205px;
+    margin-top: 160px;
+}
+
+.card1{
+    border-radius: 5px;
+}

@@ -1,0 +1,14 @@
+.Main-Nav{
+    display: flex;
+    position: relative;
+    padding-top: 33px;
+}
+
+.brandName{
+    padding-left: 187px;
+}
+
+.navContent{
+    padding-left: 354px;
+    margin-top: -6px;
+}

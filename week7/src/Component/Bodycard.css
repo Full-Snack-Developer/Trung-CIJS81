@@ -1,0 +1,58 @@
+.Main-Bodycard{
+    width: 284px;
+    height: 259px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+
+}
+
+.Topcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 25px;
+    transition: margin-bottom 2s;
+}
+
+.Topcard:hover{
+    margin-bottom: 50px;
+}
+
+.Botcard:hover{
+    display: block;
+}
+
+.piggy-icon{
+    width: 55px;
+    height: 55px;
+}
+
+.h3-icon{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.p-icon{
+    text-align: center;
+    font-size: 15px;
+    line-height: 22.5px;
+
+}
+
+.p-botcard{
+    line-height: 24px;
+    text-align: center;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg,#ee0979,#ff6a00);
+}
+
+
