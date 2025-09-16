@@ -1,0 +1,107 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+ }
+
+:root{
+  font-size: 16px
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+}
+.top_header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 30px;
+  margin-top: -20px;
+}
+.top_left_header{
+  display: flex;
+  gap: 8px;
+}
+.top_mid_header img {
+  width: 240px;
+  height: auto;
+  border-radius: 8px;
+}
+.btn_buynow{
+  width: 120px;
+  height: 40px;
+  background-color: #FF5D29;
+  color: white;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin-top: -35px ;            
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li.dropdown_1{
+  display: inline-block;
+}
+.dropdown_1btn_content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+.dropdown_1btn_content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown_1btn_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a:hover{
+  background-color: #e01f1f;
+}
+.dropdown_1:hover .dropdown_1btn_content {
+  display: block;
+}
+
+
+.bot_header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 30px;
+  margin-top: -14px;
+}
+.bot_left_header{
+  display: flex;
+  gap: 16px;
+}
+.bot_mid_header_1{
+  list-style: none;
+  display: flex;
+  position: relative;
+  gap: 20px;
+}
+.bot_mid_header_1 a{
+  font-size: 2rem;
+}
+.bot_right_header{
+  display: flex;
+  gap: 16px;
+}
