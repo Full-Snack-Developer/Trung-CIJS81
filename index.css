@@ -8,6 +8,10 @@
 :root{
   font-size: 16px
 }
+/* 
+h2{
+  font-size: 42px;
+} */
 
 header{
   display: flex;
@@ -41,7 +45,7 @@ header{
 hr {
   border: none;
   border-top: 1px solid #000;
-  margin-top: -35px ;            
+  margin-top: -20px ;            
 }
 a{
   text-decoration: none;
@@ -104,4 +108,28 @@ li.dropdown_1{
 .bot_right_header{
   display: flex;
   gap: 16px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.main_content_1{
+  display: flex;
+  justify-content: center;
+  gap: 30px
+}
+.main_content_1_right{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 30px;
+  width: 588px;
+  height: 524px;
+}
+.main_content_2{
+
+  
 }
